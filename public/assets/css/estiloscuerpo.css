@@ -1,0 +1,198 @@
+
+.presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+
+}
+.foto{
+    width: 360px;
+    height: 400px;
+    border-radius: 80px;
+    position: absolute;
+    left: 800px;
+    top: 150px;
+
+}
+
+.foto{
+    
+    box-shadow: 0 0 25px rgb(153, 1008, 166);
+}
+
+.foto:hover{
+    transform: scale(1.2);
+    background:aqua;
+    box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px #a945c7;
+    transition-delay: 1s;
+ }
+
+.nombre{
+    position: relative;
+    top:250px;
+    color:white;
+    font: oblique bold 120% cursive;
+    font-size: 30px;
+    line-height: 0.2;
+}
+
+.nombre:hover {
+    color: aqua; /* Color de texto cuando se hace hover */
+}
+
+
+.carrera{
+    
+    position: relative;
+    top:260px;
+    color: cadetblue;
+    font: oblique bold 120% cursive;
+    font-size: 20px;
+    line-height: 0.5;
+    margin: 10px; /* Márgenes superior e inferior */
+}
+
+.carrera:hover {
+    color: rgb(53, 255, 114); /* Color de texto cuando se hace hover */
+}
+
+
+.saludo{
+    
+    position: relative;
+    top:170px;
+    color:aquamarine;
+    font-size: 50px;
+    line-height: 0.5;
+    margin: 10px; /* Márgenes superior e inferior */
+}
+
+.saludo:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+    color: rgb(53, 255, 114);
+}
+
+
+/* Estilos Curriculum */
+
+.numero1{
+    display: grid;
+    grid-template-rows: auto auto ;
+    gap: 5px;    
+   
+}
+
+.numero2{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 5px; 
+}
+
+
+ul{
+  list-style: none;  
+}
+
+.titulo1{
+    color: aqua;
+    font-size: 22px;
+    position: relative;
+    display: inline-block;  
+    left: 40px;
+}
+
+.titulo1::after {
+    content: "";
+    position: absolute;
+    bottom: 1px; /* Ajusta esto para controlar la posición del subrayado */
+    left: 0;
+    width: 100%;
+    height: 7px; /* Ajusta esto para controlar el tamaño del subrayado */
+    background-color:rgba(209, 132, 228, 0.5) /* Cambia el color del subrayado según tus preferencias */
+}
+
+.titulo1:hover{
+    
+    transform: scale(1);
+    /* background: #a945c7; */
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 1110px #a945c7;
+    padding: 8px;
+ }
+
+/* Tamaño de datos */
+.datos{
+
+    width: 40px;
+    
+    position: relative;
+    top: 8px; /* Ajusta según tu diseño */
+    left: 46px; /* Ajusta según tu diseño */
+    
+}
+
+
+/* Poner estilos de nombre */
+
+.nombre1{
+    color: rgb(210, 121, 243);
+    font-size: 22px;
+    margin-left: 40px; 
+}
+
+p{
+    position: relative;
+    left: 40p;
+    font-size:20px ;
+    font-weight: bold;
+    margin-left: 40px;
+    
+}
+
+section div ul h4{
+    color: red;
+}
+
+section div ul h3{
+    color:darkgoldenrod
+}
+
+
+
+.Uno {
+    width: 40%; /* Ancho del 100% para que ocupe todo el contenedor */
+    height: 18px; /* Altura de la barra */
+    background-color: #cd2121; /* Color de la barra */
+    border-radius: 10px;
+    
+}
+
+.Dos{
+    width: 60%; /* Ancho del 100% para que ocupe todo el contenedor */
+    height: 20px; /* Altura de la barra */
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.Tres{
+    width: 70%; /* Ancho del 100% para que ocupe todo el contenedor */
+    height: 20px; /* Altura de la barra */
+    background-color: rgb(209, 23, 128);
+    border-radius: 20px;
+}
+
+.Cuatro{
+    width: 60%; /* Ancho del 100% para que ocupe todo el contenedor */
+    height: 20px; /* Altura de la barra */
+    background-color: rgb(171, 19, 198);
+    border-radius: 20px;
+}
+
+h3{
+    line-height: 0.5;
+}
+
+.linea:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #45c7b1, 0 0 110px #a945c7;
+    
+}
