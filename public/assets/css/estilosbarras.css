@@ -75,3 +75,44 @@ footer p {
 .principal{
     text-align: center;
 }
+
+th{
+
+    border: 1px solid rgb(255, 255, 255) ;
+
+}
+td{
+
+border: 1px solid rgb(255, 255, 255) ;
+
+}
+
+
+.perro{
+    /* background-color: red; */
+    height: 200px;
+    width: 200px;
+}
+.perro2{
+    /* background-color: red; */
+    height: 100px;
+    width: 50px;
+}
+
+
+.perro {
+    display: flex;  
+}
+
+.foto-container {
+    margin-right: 10px; 
+}
+
+.foto {
+    max-width: 300px; 
+        height: auto;
+}
+.foto2 {
+    max-width: 300px; 
+        height: auto;
+}
