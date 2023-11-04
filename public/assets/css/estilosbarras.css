@@ -62,15 +62,14 @@ header nav a img:hover{
 footer {
     color: aqua;
     text-align: center;
-    
+    padding: 5px;
     font-weight: bold;
     border-top:1px solid  rgb(53, 255, 114);
-    margin-top: -20px;
 }
 
-/* footer p {
-    margin: 20px;
-} */
+footer p {
+    margin: 0;
+}
 
 
 .principal{
